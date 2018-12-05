@@ -1,12 +1,23 @@
-div {
+#name {
+  width:600px;
+  text-align:left;
+  padding-left:10px;
+  padding-top:10px;
+  height: 100px;
+
+}
+#heading {
+  color: blue
+}
+
+#action{
   width:400px;
   text-align:left;
   padding-left:10px;
-}
-#g {
-  color: gray
+  padding-top:10px;
+  height: 1000px
 }
 
-#int {
-  color: darkgoldenrod
+#result {
+  color: turquoise
 }
