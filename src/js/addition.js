@@ -1,4 +1,12 @@
+function insertIntoTable (inputs, tableId) {
+  resultData = "";
+  inputs.forEach(elem => {
+    resultData = resultData + "<tr><td>" + elem + "</tr></td>" 
+   });
+   document.getElementById("table1").innerHTML = resultData;
+}
 
+/* 
  function addition() { 
     var input1, input2; 
     input1 = parseFloat(document.getElementById("add1").value); 
@@ -11,4 +19,4 @@
     }
     
 }
-    
+     */
